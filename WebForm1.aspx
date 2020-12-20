@@ -17,7 +17,7 @@
                 <asp:Button CssClass="Btn" ID="Button1" runat="server" Text="Start Transaction" OnClick="Button1_Click"/>
                 <br />
                 <br />     
-                <asp:Label style="font-size: 20px" ID="Label2" CssClass="Lab" runat="server" Text="Presented by Sai Vamsi Reddy Kinkiri"></asp:Label>
+                <asp:Label style="font-size: 20px" ID="Label2" CssClass="Lab" runat="server" Text="Designed by Sai Vamsi Reddy Kinkiri"></asp:Label>
                 <br />
                 <br /> 
                 <asp:Label CssClass="Lab" ID="Label1" runat="server" Text="Select the Customer (Sender) : " Visible="false"></asp:Label>
