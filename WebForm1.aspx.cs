@@ -20,6 +20,7 @@ namespace Basic_Bank
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            Label2.Visible = false;
             Button3.Visible = false;
             Label1.Visible = true;
             DropDownList1.Visible = true;
