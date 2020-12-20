@@ -14,9 +14,12 @@
                 <h1 class="Head">Home Page</h1><br />     
                 <asp:Button CssClass="Btn" ID="Button3" runat="server" OnClick="Button3_Click" Text="View all Customers"></asp:Button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button CssClass="Btn" ID="Button1" runat="server" Text="Start Transaction" OnClick="Button1_Click"/><br />
+                <asp:Button CssClass="Btn" ID="Button1" runat="server" Text="Start Transaction" OnClick="Button1_Click"/>
                 <br />
-                <br />            
+                <br />     
+                <asp:Label style="font-size: 20px" ID="Label2" CssClass="Lab" runat="server" Text="Presented by Sai Vamsi Reddy Kinkiri"></asp:Label>
+                <br />
+                <br /> 
                 <asp:Label CssClass="Lab" ID="Label1" runat="server" Text="Select the Customer (Sender) : " Visible="false"></asp:Label>
                 &nbsp;
                 <asp:DropDownList CssClass="Drop" ID="DropDownList1" runat="server" 
